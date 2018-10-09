@@ -9,6 +9,7 @@ import com.mofei.seckill.util.ValidatorUtil;
 public class IsMobileValidator implements ConstraintValidator<IsMobile, String> {
 
 	private boolean required = false;
+
 	
 	public void initialize(IsMobile constraintAnnotation) {
 		required = constraintAnnotation.required();
