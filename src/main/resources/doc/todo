@@ -1,1 +1,3 @@
 @NeedLogin
+
+controller define map not thread safe, if use thread safe local variable, do that affect qps?
